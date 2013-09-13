@@ -1,0 +1,21 @@
+{
+  "name": "prolific-cache-redis",
+  "version": "0.0.1",
+  "description": "A Redis caching libary based on prolific-cache.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "node-prolific-cache": "git+ssh://git@bitbucket.org:prolificinteractive/node-prolific-cache.git#master",
+    "redis": "~0.8.4",
+    "hiredis": "~0.1.15"
+  },
+  "repository": "",
+  "author": "Eric Weber",
+  "license": "BSD",
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.12.1"
+  }
+}
