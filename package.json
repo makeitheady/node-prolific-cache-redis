@@ -11,7 +11,10 @@
     "redis": "~0.8.4",
     "hiredis": "~0.1.15"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org:prolificinteractive/node-prolific-cache-redis.git"
+  },
   "author": "Eric Weber",
   "license": "BSD",
   "devDependencies": {
