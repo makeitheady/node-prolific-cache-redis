@@ -7,9 +7,7 @@
     "test": "make test"
   },
   "dependencies": {
-    "prolific-cache": "git+ssh://git@bitbucket.org:prolificinteractive/node-prolific-cache.git#master",
-    "redis": "~0.8.4",
-    "hiredis": "~0.1.15"
+    "redis": "~1.0.0"
   },
   "repository": {
     "type": "git",
